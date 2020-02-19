@@ -1,0 +1,56 @@
+body {
+  background-color: #1c4366;
+  color: white;
+}
+
+h1 {
+  font-size: 20pt;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 16pt;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #888 !important;
+}
+
+.nav-item {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.co-tagline {
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 28px;
+  text-align: center;
+  padding: 3em;
+}
+
+.co-features {
+  text-align: center;
+}
+
+.co-feature-item {
+  padding: 10px;
+}
+
+.co-feature-item p {
+  text-align: left;
+}
+
+.co-feature-item
+
+.feature-icon {
+  font-size: 40pt !important;
+  margin: 0.5em;
+}
