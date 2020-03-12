@@ -1,7 +1,8 @@
 body {
-  background-color: #1c4366;
-  color: white;
+  background-color: whitesmoke;
+  color: black;
 }
+
 
 h1 {
   font-size: 20pt;
@@ -21,11 +22,13 @@ h2 {
 .nav-item {
   padding-left: 1em;
   padding-right: 1em;
+  
 }
 
 .nav-link {
   text-transform: uppercase;
   font-size: 14px;
+  
 }
 
 .co-tagline {
@@ -45,7 +48,7 @@ h2 {
 }
 
 .co-feature-item p {
-  text-align: left;
+  text-align: center;
 }
 
 .co-feature-item
@@ -54,3 +57,83 @@ h2 {
   font-size: 40pt !important;
   margin: 0.5em;
 }
+
+
+.mdl-cell--4-col, .mdl-cell--4-col-tablet.mdl-cell--4-col-tablet {
+
+  width: calc(100% - 20px);
+  margin-top:5px;
+
+}
+
+
+.pp-digital {
+  background-color: #56606e;
+  color: white;
+  padding: 5.3em;
+}
+
+.pp-digitall {
+  background-color: black;
+  color: white;
+  opacity: 80%;
+  padding: 0.5em;
+  height: 15em;
+}
+
+.pp-faq-container {
+  margin-top: 50px;
+  background-color: #eee;
+  min-height: 550px;
+}
+
+.pp-faq-title {
+  font-size: 1.8em;
+  padding: 1.8em;
+}
+
+.pp-faq {
+  padding: 1.8em;
+}
+
+.pp-screen-section {
+
+  padding: 1.2em;
+
+}
+
+.question {
+  color: black;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 1.2em;
+}
+
+.answer {
+  font-size: 0.9em;
+  margin-top: 0.3em;
+  color: #666;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.d {
+  text-align: justify;
+} 
+
+
