@@ -24,7 +24,7 @@
       >
         <q-scroll-area class="fit">
           <q-list padding>
-            <q-item clickable v-ripple>
+            <q-item clickable v-ripple :to="{path: '/documents'}">
               <q-item-section avatar>
                 <q-icon name="inbox" />
               </q-item-section>
@@ -44,7 +44,7 @@
               </q-item-section>
             </q-item>
 
-            <q-item clickable v-ripple>
+            <q-item clickable v-ripple :to="{path: '/users'}">
               <q-item-section avatar>
                 <q-icon name="face" />
               </q-item-section>
@@ -68,44 +68,8 @@
       </q-drawer>
 
   <q-page-container>
-  <center>
-  <div class="q-pa-md row items-start q-gutter-md">
-    <q-card class="my-card bg-secondary text-white">
-      <q-card-section>
-        <div class="text-h6">Proposal</div>
-        <div class="text-subtitle2">by John Doe</div>
-      </q-card-section>
-
-      <q-card-section>
-        {{ lorem }}
-      </q-card-section>
-
-      <q-separator dark />
-      <br>
-      <q-card-actions>
-        <q-btn flat>Open</q-btn>
-      </q-card-actions>
-    </q-card>
-
-    <q-card class="my-card bg-secondary text-white">
-      <q-card-section>
-        <div class="text-h6">Final Report</div>
-        <div class="text-subtitle2">by Harry Jacky</div>
-      </q-card-section>
-
-      <q-card-section>
-        {{ lorem }}
-      </q-card-section>
-
-      <q-separator dark />
-      <br>
-      <q-card-actions>
-        <q-btn flat>Open</q-btn>
-      </q-card-actions>
-    </q-card>
-  </div>
-  </center>
-      </q-page-container>
+     <router-view />
+ </q-page-container>
     </q-layout>
 </div>
 </div>
