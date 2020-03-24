@@ -2,8 +2,8 @@
 <div class="flex row full-height justify-center content-center q-px-md">
   <q-card class="login-container q-pa-xs no-shadow">
     <q-card-section>
-      <img src="./../../docs/banner0.png" width="100" />
-      <div class="text-subtitle"> Sabah Law Society </div>
+      <img src="./../assets/banner0.jpg" width="200" />
+      <div class="text-subtitle"> COSECRETARY </div>
     <q-form
       ref="form"
       @submit="onSubmit"
@@ -45,8 +45,8 @@
 </template>
 
 <script>
-import store from './../../store'
-import Db from './../../db'
+import store from './../store'
+import Db from './../db'
 import { setCookie } from 'tiny-cookie'
 export default {
   data () {
